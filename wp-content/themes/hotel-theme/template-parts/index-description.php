@@ -1,5 +1,4 @@
 <?php
-    $descriptionTitle = get_field('description_title');
     $descriptionText = get_field('description_text');
     $descriptionsubtitle = get_field('description_subtitle');
     $descriptionsubtitletext = get_field('description_subtitle_text');
@@ -11,7 +10,7 @@
 <div class="description_grid">
 
     <div class="description-main-content">
-        <h2 class="description-title"><?= $descriptionTitle ?></h2>
+        <h2 class="description-title">Welcome to Your Sanctuary by the Sea</h2>
         <p class="description-text"><?= $descriptionText ?></p>
     </div>
 
