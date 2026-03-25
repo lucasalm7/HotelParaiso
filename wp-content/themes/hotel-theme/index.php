@@ -18,6 +18,10 @@
                 <?php get_template_part("template-parts/index", "reviews") ?>
             </div>
 
+            <div class="hotel-contact">
+                <?php get_template_part("template-parts/index", "contact") ?>
+            </div>
+
         <?php endwhile; ?>
     <?php endif; ?>
 
