@@ -22,6 +22,10 @@
                 <?php get_template_part("template-parts/index", "contact") ?>
             </div>
 
+            <div class="hotel-amenities">
+                <?php get_template_part("template-parts/index", "amenities") ?>
+            </div>
+
         <?php endwhile; ?>
     <?php endif; ?>
 

@@ -103,3 +103,34 @@ Stack trace:
 [25-Mar-2026 13:38:50 UTC] PHP Warning:  Array to string conversion in /Users/lucasalmeida/Local Sites/hotelcms/app/public/wp-content/themes/hotel-theme/template-parts/index-contact.php on line 9
 [25-Mar-2026 13:39:39 UTC] PHP Warning:  Array to string conversion in /Users/lucasalmeida/Local Sites/hotelcms/app/public/wp-content/themes/hotel-theme/template-parts/index-contact.php on line 9
 [25-Mar-2026 13:40:18 UTC] PHP Warning:  Array to string conversion in /Users/lucasalmeida/Local Sites/hotelcms/app/public/wp-content/themes/hotel-theme/template-parts/index-contact.php on line 9
+[08-Apr-2026 09:55:41 UTC] Automatic updates starting...
+[08-Apr-2026 09:55:41 UTC]   Automatic plugin updates starting...
+[08-Apr-2026 09:55:41 UTC]   Automatic plugin updates complete.
+[08-Apr-2026 09:55:42 UTC] Automatic updates complete.
+[08-Apr-2026 10:14:43 UTC] Automatic updates starting...
+[08-Apr-2026 10:14:43 UTC]   Automatic plugin updates starting...
+[08-Apr-2026 10:14:43 UTC]   Automatic plugin updates complete.
+[08-Apr-2026 10:14:43 UTC] Automatic updates complete.
+[08-Apr-2026 11:27:07 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /Users/lucasalmeida/Local Sites/hotelcms/app/public/wp-content/themes/hotel-theme/template-parts/index-reviews.php on line 7
+[08-Apr-2026 11:44:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_field() in /Users/lucasalmeida/Local Sites/hotelcms/app/public/wp-content/themes/hotel-theme/template-parts/events-list.php:23
+Stack trace:
+#0 /Users/lucasalmeida/Local Sites/hotelcms/app/public/wp-includes/template.php(816): require()
+#1 /Users/lucasalmeida/Local Sites/hotelcms/app/public/wp-includes/template.php(749): load_template('/Users/lucasalm...', false, Array)
+#2 /Users/lucasalmeida/Local Sites/hotelcms/app/public/wp-includes/general-template.php(206): locate_template(Array, true, false, Array)
+#3 /Users/lucasalmeida/Local Sites/hotelcms/app/public/wp-content/themes/hotel-theme/page-events.php(6): get_template_part('template-parts/...', 'list')
+#4 /Users/lucasalmeida/Local Sites/hotelcms/app/public/wp-includes/template-loader.php(132): include('/Users/lucasalm...')
+#5 /Users/lucasalmeida/Local Sites/hotelcms/app/public/wp-blog-header.php(19): require_once('/Users/lucasalm...')
+#6 /Users/lucasalmeida/Local Sites/hotelcms/app/public/index.php(17): require('/Users/lucasalm...')
+#7 {main}
+  thrown in /Users/lucasalmeida/Local Sites/hotelcms/app/public/wp-content/themes/hotel-theme/template-parts/events-list.php on line 23
+[08-Apr-2026 11:45:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_field() in /Users/lucasalmeida/Local Sites/hotelcms/app/public/wp-content/themes/hotel-theme/template-parts/events-list.php:24
+Stack trace:
+#0 /Users/lucasalmeida/Local Sites/hotelcms/app/public/wp-includes/template.php(816): require()
+#1 /Users/lucasalmeida/Local Sites/hotelcms/app/public/wp-includes/template.php(749): load_template('/Users/lucasalm...', false, Array)
+#2 /Users/lucasalmeida/Local Sites/hotelcms/app/public/wp-includes/general-template.php(206): locate_template(Array, true, false, Array)
+#3 /Users/lucasalmeida/Local Sites/hotelcms/app/public/wp-content/themes/hotel-theme/page-events.php(6): get_template_part('template-parts/...', 'list')
+#4 /Users/lucasalmeida/Local Sites/hotelcms/app/public/wp-includes/template-loader.php(132): include('/Users/lucasalm...')
+#5 /Users/lucasalmeida/Local Sites/hotelcms/app/public/wp-blog-header.php(19): require_once('/Users/lucasalm...')
+#6 /Users/lucasalmeida/Local Sites/hotelcms/app/public/index.php(17): require('/Users/lucasalm...')
+#7 {main}
+  thrown in /Users/lucasalmeida/Local Sites/hotelcms/app/public/wp-content/themes/hotel-theme/template-parts/events-list.php on line 24

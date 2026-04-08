@@ -26,7 +26,7 @@
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Events</a>
+                            <a class="nav-link" href="<?= get_permalink(get_page_by_path("events")); ?>">Events</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Contact us</a>
